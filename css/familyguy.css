@@ -72,12 +72,24 @@ p {
     margin: 0 auto;
 }
 /* *************************************************************************   NAV STYLES HERE   */
+header nav{
+    display: flex;
+    margin-top: 40px;
+    width: 800 px;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
 
+header nav a {
+    text-decoration: none;
+    color: black;
+}
 
 header .logo {
   width: 60px;
   height: 60px;
-  
+ 
 }
 
 
@@ -90,12 +102,51 @@ header .logo {
 
 /* ****************************************************************************   FAMILY GUY PAGE STYLES HERE   */
 
+.jumbotron {
+    margin-bottom: 20px;
+}
 
 
 .middle-image{
   width: 330px;
   height: 250px;
+
 }
+
+.box-section {
+	
+	display: flex;
+	flex-direction: row;
+    flex-wrap: wrap;
+}
+	
+
+.boxes {
+	
+	border-bottom: 1px solid black;
+	height: 490px;
+	width: 380px;
+    margin: 20px 5px 5px 5px;
+    padding: 40px 20px 20px 20px;
+    
+
+}
+
+button {
+	vertical-align: top;
+	border: 1px solid black;
+	font-size: 10px;
+	padding: 5px 20px;
+	border-radius: 5px;
+	margin: 10px;
+
+}
+
+.end {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 
 
 
